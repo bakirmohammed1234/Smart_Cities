@@ -1,0 +1,4 @@
+<additional>
+  <e1Detector id="queue_detector_edge1" lane="edge1_0" pos="50" freq="1" file="queue_detector_output.xml"/>
+  <laneAreaDetector id="pollution_detector" lane="edge1_0" pos="30" endPos="70" freq="1" file="pollution_output.xml"/>
+</additional>

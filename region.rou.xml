@@ -1,0 +1,6 @@
+<routes>
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" emissionClass="HBEFA3/PC_G_EU4"/>
+  
+<flow id="f1" type="car" begin="0" end="360" number="200" from="edge1" to="edge2"/>
+
+</routes>

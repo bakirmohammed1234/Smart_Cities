@@ -1,0 +1,14 @@
+<configuration>
+  <input>
+    <net-file value="region.net.xml"/>
+    <route-files value="region.rou.xml"/>
+    <additional-files value="region.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="360"/>
+  </time>
+  <report>
+  <emission-output value="emissions.xml"/>
+</report>
+</configuration>

@@ -1,0 +1,4 @@
+<edges>
+  <edge id="edge1" from="n1" to="n2" numLanes="1"/>
+  <edge id="edge2" from="n2" to="n3" numLanes="1"/>
+</edges>
