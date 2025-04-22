@@ -8,7 +8,7 @@ config_file = "region.sumocfg"
 num_runs = 5
 sumo_command = "sumo"  # ou "sumo-gui" si tu veux voir la simulation
 
-# Fichiers XML générés
+
 emission_file = "emissions.xml"
 pollution_file = "pollution_output.xml"
 queue_file = "queue_detector_output.xml"
@@ -44,8 +44,7 @@ def parse_queue(file, run):
         row = interval.attrib.copy()
         row["run"] = run
         queue_data.append(row)
-
-# Simulation multiple
+#Lancer plusieurs simulations
 for i in range(num_runs):
     print(f"🔁 Simulation {i+1}/{num_runs}...")
     subprocess.run([sumo_command, "-c", config_file], stdout=subprocess.DEVNULL)

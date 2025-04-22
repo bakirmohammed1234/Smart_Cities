@@ -1,0 +1,9 @@
+<routes>
+    <!-- Définition du type de véhicule -->
+    <vType id="car" accel="2.0" decel="4.5" sigma="0.5" length="5.0"
+           minGap="2.5" maxSpeed="13.9" emissionClass="HBEFA3/PC_G_EU4"/>
+
+    <!-- Génération d’un flow de 200 voitures -->
+    <flow id="car_flow" type="car" begin="0" end="360" number="200"
+          from="edge1" to="edge2"/>
+</routes>

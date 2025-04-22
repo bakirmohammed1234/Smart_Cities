@@ -1,0 +1,12 @@
+<configuration>
+  <input>
+    <net-file value="region.net.xml"/>
+    <route-files value="region.rou.xml"/>
+    <additional-files value="region.add.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end   value="720"/>
+    <step-length value="1"/>
+  </time>
+</configuration>

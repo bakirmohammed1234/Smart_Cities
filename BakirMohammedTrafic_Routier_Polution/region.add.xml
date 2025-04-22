@@ -1,0 +1,20 @@
+<additional>
+    <!-- Capteur de file d'attente sur edge1 -->
+    <laneAreaDetector id="queue_detector_edge1"
+                  lane="edge1_0"
+                  pos="0"
+                  length="100"
+                  freq="1"
+                  file="queue_detector_output.xml"
+                  friendlyPos="true"
+                  outputFormat="XML"/>
+
+
+    <!-- Capteur de pollution sur edge1 entre 30m et 70m -->
+    <emissionDetector id="pollution_detector"
+                      lane="edge1_0"
+                      pos="30"
+                      length="40"
+                      freq="1"
+                      file="pollution_output.xml"/>
+</additional>

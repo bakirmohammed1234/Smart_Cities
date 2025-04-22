@@ -1,3 +1,0 @@
-netconvert --node-files region.nod.xml --edge-files region.edg.xml -o region.net.xml
-
-sumo -c "C:\Users\AdMiN\OneDrive\Documents\Projet_SUMO\region.sumocfg"
